@@ -7,11 +7,8 @@ import com.SauceLabBase.BaseActions;
 
 public class LoginPage extends BaseActions {
 
-//	public WebDriver driver;
-
 	public LoginPage(WebDriver driver) {
 		super(driver);
-//		this.driver = driver;
 	}
 
 	private By username = By.xpath("//input[@id='user-name']");
