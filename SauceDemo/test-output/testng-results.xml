@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SauceDemoSuite" duration-ms="118800" started-at="2023-01-06T16:56:36 IST" finished-at="2023-01-06T16:58:35 IST">
+    <groups>
+      <group name="Sanity">
+        <method signature="CartPageTest.VerifyCartPageTitle()[pri:0, instance:com.SauceLabTestClasses.CartPageTest@6f8e8894]" name="VerifyCartPageTitle" class="com.SauceLabTestClasses.CartPageTest"/>
+        <method signature="HomePageTest.VerifyHomePageHeader()[pri:0, instance:com.SauceLabTestClasses.HomePageTest@452e19ca]" name="VerifyHomePageHeader" class="com.SauceLabTestClasses.HomePageTest"/>
+        <method signature="LoginPageTest.VerifyLoginPageTitle()[pri:1, instance:com.SauceLabTestClasses.LoginPageTest@6c7a164b]" name="VerifyLoginPageTitle" class="com.SauceLabTestClasses.LoginPageTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="CartPageTest.VerifyCartPageHeader()[pri:0, instance:com.SauceLabTestClasses.CartPageTest@6f8e8894]" name="VerifyCartPageHeader" class="com.SauceLabTestClasses.CartPageTest"/>
+        <method signature="CartPageTest.verifyBuyProduct()[pri:0, instance:com.SauceLabTestClasses.CartPageTest@6f8e8894]" name="verifyBuyProduct" class="com.SauceLabTestClasses.CartPageTest"/>
+        <method signature="HomePageTest.VerifyAddToCart()[pri:0, instance:com.SauceLabTestClasses.HomePageTest@452e19ca]" name="VerifyAddToCart" class="com.SauceLabTestClasses.HomePageTest"/>
+        <method signature="HomePageTest.VerifyDropDown()[pri:0, instance:com.SauceLabTestClasses.HomePageTest@452e19ca]" name="VerifyDropDown" class="com.SauceLabTestClasses.HomePageTest"/>
+        <method signature="HomePageTest.VerifyHomePageHeader()[pri:0, instance:com.SauceLabTestClasses.HomePageTest@452e19ca]" name="VerifyHomePageHeader" class="com.SauceLabTestClasses.HomePageTest"/>
+        <method signature="HomePageTest.VerifyHomePageMenuBtn()[pri:0, instance:com.SauceLabTestClasses.HomePageTest@452e19ca]" name="VerifyHomePageMenuBtn" class="com.SauceLabTestClasses.HomePageTest"/>
+        <method signature="HomePageTest.VerifyHomePageTitle()[pri:0, instance:com.SauceLabTestClasses.HomePageTest@452e19ca]" name="VerifyHomePageTitle" class="com.SauceLabTestClasses.HomePageTest"/>
+        <method signature="LoginPageTest.VerifyLogin()[pri:0, instance:com.SauceLabTestClasses.LoginPageTest@6c7a164b]" name="VerifyLogin" class="com.SauceLabTestClasses.LoginPageTest"/>
+        <method signature="LoginPageTest.VerifyLoginPageURL()[pri:0, instance:com.SauceLabTestClasses.LoginPageTest@6c7a164b]" name="VerifyLoginPageURL" class="com.SauceLabTestClasses.LoginPageTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="CartPageTest.VerifyCartPageTitle()[pri:0, instance:com.SauceLabTestClasses.CartPageTest@6f8e8894]" name="VerifyCartPageTitle" class="com.SauceLabTestClasses.CartPageTest"/>
+        <method signature="HomePageTest.VerifyHomePageTitle()[pri:0, instance:com.SauceLabTestClasses.HomePageTest@452e19ca]" name="VerifyHomePageTitle" class="com.SauceLabTestClasses.HomePageTest"/>
+        <method signature="LoginPageTest.VerifyLogin()[pri:0, instance:com.SauceLabTestClasses.LoginPageTest@6c7a164b]" name="VerifyLogin" class="com.SauceLabTestClasses.LoginPageTest"/>
+        <method signature="LoginPageTest.VerifyLoginPageURL()[pri:0, instance:com.SauceLabTestClasses.LoginPageTest@6c7a164b]" name="VerifyLoginPageURL" class="com.SauceLabTestClasses.LoginPageTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test" duration-ms="118800" started-at="2023-01-06T16:56:36 IST" finished-at="2023-01-06T16:58:35 IST">
+      <class name="com.SauceLabTestClasses.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SauceLabTestClasses.LoginPageTest@6c7a164b]" name="setUp" is-config="true" duration-ms="12390" started-at="2023-01-06T16:56:36 IST" finished-at="2023-01-06T16:56:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="set(java.lang.reflect.Method)[pri:0, instance:com.SauceLabTestClasses.LoginPageTest@6c7a164b]" name="set" is-config="true" duration-ms="10" started-at="2023-01-06T16:56:48 IST" finished-at="2023-01-06T16:56:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SauceLabTestClasses.LoginPageTest.VerifyLogin() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="VerifyLogin()[pri:0, instance:com.SauceLabTestClasses.LoginPageTest@6c7a164b]" name="VerifyLogin" duration-ms="1272" started-at="2023-01-06T16:56:48 IST" finished-at="2023-01-06T16:56:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SauceLabTestClasses.LoginPageTest@6c7a164b]" name="tearDown" is-config="true" duration-ms="7830" started-at="2023-01-06T16:56:50 IST" finished-at="2023-01-06T16:56:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SauceLabTestClasses.LoginPageTest@6c7a164b]" name="setUp" is-config="true" duration-ms="4367" started-at="2023-01-06T16:56:57 IST" finished-at="2023-01-06T16:57:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="set(java.lang.reflect.Method)[pri:0, instance:com.SauceLabTestClasses.LoginPageTest@6c7a164b]" name="set" is-config="true" duration-ms="1" started-at="2023-01-06T16:57:02 IST" finished-at="2023-01-06T16:57:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SauceLabTestClasses.LoginPageTest.VerifyLoginPageURL()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="VerifyLoginPageURL()[pri:0, instance:com.SauceLabTestClasses.LoginPageTest@6c7a164b]" name="VerifyLoginPageURL" duration-ms="29" started-at="2023-01-06T16:57:02 IST" finished-at="2023-01-06T16:57:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginPageURL -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SauceLabTestClasses.LoginPageTest@6c7a164b]" name="tearDown" is-config="true" duration-ms="3865" started-at="2023-01-06T16:57:02 IST" finished-at="2023-01-06T16:57:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SauceLabTestClasses.LoginPageTest@6c7a164b]" name="setUp" is-config="true" duration-ms="4213" started-at="2023-01-06T16:57:06 IST" finished-at="2023-01-06T16:57:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyLoginPageTitle()[pri:1, instance:com.SauceLabTestClasses.LoginPageTest@6c7a164b]" name="VerifyLoginPageTitle" duration-ms="12" started-at="2023-01-06T16:57:10 IST" finished-at="2023-01-06T16:57:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginPageTitle -->
+        <test-method status="PASS" signature="set(java.lang.reflect.Method)[pri:0, instance:com.SauceLabTestClasses.LoginPageTest@6c7a164b]" name="set" is-config="true" duration-ms="0" started-at="2023-01-06T16:57:10 IST" finished-at="2023-01-06T16:57:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SauceLabTestClasses.LoginPageTest.VerifyLoginPageTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SauceLabTestClasses.LoginPageTest@6c7a164b]" name="tearDown" is-config="true" duration-ms="3903" started-at="2023-01-06T16:57:10 IST" finished-at="2023-01-06T16:57:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SauceLabTestClasses.LoginPageTest -->
+      <class name="com.SauceLabTestClasses.CartPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SauceLabTestClasses.CartPageTest@6f8e8894]" name="setUp" is-config="true" duration-ms="4028" started-at="2023-01-06T16:58:05 IST" finished-at="2023-01-06T16:58:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="set()[pri:0, instance:com.SauceLabTestClasses.CartPageTest@6f8e8894]" name="set" is-config="true" duration-ms="1133" started-at="2023-01-06T16:58:10 IST" finished-at="2023-01-06T16:58:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="VerifyCartPageHeader()[pri:0, instance:com.SauceLabTestClasses.CartPageTest@6f8e8894]" name="VerifyCartPageHeader" duration-ms="72" started-at="2023-01-06T16:58:11 IST" finished-at="2023-01-06T16:58:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCartPageHeader -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SauceLabTestClasses.CartPageTest@6f8e8894]" name="tearDown" is-config="true" duration-ms="3857" started-at="2023-01-06T16:58:11 IST" finished-at="2023-01-06T16:58:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SauceLabTestClasses.CartPageTest@6f8e8894]" name="setUp" is-config="true" duration-ms="3963" started-at="2023-01-06T16:58:15 IST" finished-at="2023-01-06T16:58:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="set()[pri:0, instance:com.SauceLabTestClasses.CartPageTest@6f8e8894]" name="set" is-config="true" duration-ms="1035" started-at="2023-01-06T16:58:19 IST" finished-at="2023-01-06T16:58:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="VerifyCartPageTitle()[pri:0, instance:com.SauceLabTestClasses.CartPageTest@6f8e8894]" name="VerifyCartPageTitle" duration-ms="17" started-at="2023-01-06T16:58:20 IST" finished-at="2023-01-06T16:58:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCartPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SauceLabTestClasses.CartPageTest@6f8e8894]" name="tearDown" is-config="true" duration-ms="3918" started-at="2023-01-06T16:58:20 IST" finished-at="2023-01-06T16:58:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SauceLabTestClasses.CartPageTest@6f8e8894]" name="setUp" is-config="true" duration-ms="4435" started-at="2023-01-06T16:58:24 IST" finished-at="2023-01-06T16:58:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="set()[pri:0, instance:com.SauceLabTestClasses.CartPageTest@6f8e8894]" name="set" is-config="true" duration-ms="1576" started-at="2023-01-06T16:58:28 IST" finished-at="2023-01-06T16:58:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="verifyBuyProduct()[pri:0, instance:com.SauceLabTestClasses.CartPageTest@6f8e8894]" name="verifyBuyProduct" duration-ms="1207" started-at="2023-01-06T16:58:30 IST" finished-at="2023-01-06T16:58:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuyProduct -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SauceLabTestClasses.CartPageTest@6f8e8894]" name="tearDown" is-config="true" duration-ms="3831" started-at="2023-01-06T16:58:31 IST" finished-at="2023-01-06T16:58:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SauceLabTestClasses.CartPageTest -->
+      <class name="com.SauceLabTestClasses.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SauceLabTestClasses.HomePageTest@452e19ca]" name="setUp" is-config="true" duration-ms="4724" started-at="2023-01-06T16:57:14 IST" finished-at="2023-01-06T16:57:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="set()[pri:0, instance:com.SauceLabTestClasses.HomePageTest@452e19ca]" name="set" is-config="true" duration-ms="642" started-at="2023-01-06T16:57:19 IST" finished-at="2023-01-06T16:57:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="VerifyAddToCart()[pri:0, instance:com.SauceLabTestClasses.HomePageTest@452e19ca]" name="VerifyAddToCart" duration-ms="448" started-at="2023-01-06T16:57:19 IST" finished-at="2023-01-06T16:57:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddToCart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SauceLabTestClasses.HomePageTest@452e19ca]" name="tearDown" is-config="true" duration-ms="3892" started-at="2023-01-06T16:57:20 IST" finished-at="2023-01-06T16:57:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SauceLabTestClasses.HomePageTest@452e19ca]" name="setUp" is-config="true" duration-ms="4254" started-at="2023-01-06T16:57:23 IST" finished-at="2023-01-06T16:57:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="set()[pri:0, instance:com.SauceLabTestClasses.HomePageTest@452e19ca]" name="set" is-config="true" duration-ms="641" started-at="2023-01-06T16:57:28 IST" finished-at="2023-01-06T16:57:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="VerifyDropDown()[pri:0, instance:com.SauceLabTestClasses.HomePageTest@452e19ca]" name="VerifyDropDown" duration-ms="1252" started-at="2023-01-06T16:57:28 IST" finished-at="2023-01-06T16:57:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDropDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SauceLabTestClasses.HomePageTest@452e19ca]" name="tearDown" is-config="true" duration-ms="3831" started-at="2023-01-06T16:57:30 IST" finished-at="2023-01-06T16:57:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SauceLabTestClasses.HomePageTest@452e19ca]" name="setUp" is-config="true" duration-ms="4226" started-at="2023-01-06T16:57:33 IST" finished-at="2023-01-06T16:57:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="set()[pri:0, instance:com.SauceLabTestClasses.HomePageTest@452e19ca]" name="set" is-config="true" duration-ms="695" started-at="2023-01-06T16:57:38 IST" finished-at="2023-01-06T16:57:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="VerifyHomePageHeader()[pri:0, instance:com.SauceLabTestClasses.HomePageTest@452e19ca]" name="VerifyHomePageHeader" duration-ms="77" started-at="2023-01-06T16:57:38 IST" finished-at="2023-01-06T16:57:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHomePageHeader -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SauceLabTestClasses.HomePageTest@452e19ca]" name="tearDown" is-config="true" duration-ms="3879" started-at="2023-01-06T16:57:38 IST" finished-at="2023-01-06T16:57:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SauceLabTestClasses.HomePageTest@452e19ca]" name="setUp" is-config="true" duration-ms="4414" started-at="2023-01-06T16:57:42 IST" finished-at="2023-01-06T16:57:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="set()[pri:0, instance:com.SauceLabTestClasses.HomePageTest@452e19ca]" name="set" is-config="true" duration-ms="628" started-at="2023-01-06T16:57:47 IST" finished-at="2023-01-06T16:57:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="VerifyHomePageMenuBtn()[pri:0, instance:com.SauceLabTestClasses.HomePageTest@452e19ca]" name="VerifyHomePageMenuBtn" duration-ms="5548" started-at="2023-01-06T16:57:47 IST" finished-at="2023-01-06T16:57:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHomePageMenuBtn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SauceLabTestClasses.HomePageTest@452e19ca]" name="tearDown" is-config="true" duration-ms="3895" started-at="2023-01-06T16:57:53 IST" finished-at="2023-01-06T16:57:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SauceLabTestClasses.HomePageTest@452e19ca]" name="setUp" is-config="true" duration-ms="4089" started-at="2023-01-06T16:57:57 IST" finished-at="2023-01-06T16:58:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="set()[pri:0, instance:com.SauceLabTestClasses.HomePageTest@452e19ca]" name="set" is-config="true" duration-ms="654" started-at="2023-01-06T16:58:01 IST" finished-at="2023-01-06T16:58:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="VerifyHomePageTitle()[pri:0, instance:com.SauceLabTestClasses.HomePageTest@452e19ca]" name="VerifyHomePageTitle" duration-ms="23" started-at="2023-01-06T16:58:02 IST" finished-at="2023-01-06T16:58:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHomePageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SauceLabTestClasses.HomePageTest@452e19ca]" name="tearDown" is-config="true" duration-ms="3871" started-at="2023-01-06T16:58:02 IST" finished-at="2023-01-06T16:58:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SauceLabTestClasses.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- SauceDemoSuite -->
+</testng-results>
