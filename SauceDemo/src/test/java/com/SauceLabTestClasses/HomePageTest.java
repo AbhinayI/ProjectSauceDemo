@@ -17,9 +17,6 @@ public class HomePageTest extends TestBase {
 	CartPage cart;
 	Logger log;
 
-	public HomePageTest() {
-		super();
-	}
 	@BeforeMethod(alwaysRun = true)
 	public void set() {
 		login = new LoginPage(driver);
