@@ -21,7 +21,8 @@ This is an automated test framework for the Saucedemo web application of Data Dr
 - ExtentReports
 
 ## Reports
-Reports are generated using ExtentReports and can be found in the `/reports` directory.
+Reports are generated using ExtentReports and can be found in the `/ExtentReport` directory.
+
 ![Screenshot (2)](https://user-images.githubusercontent.com/122073049/211183340-4e0b00a8-9576-49df-9c0c-84f7670f7581.png)
 ![Screenshot (3)](https://user-images.githubusercontent.com/122073049/211183363-e8baa99f-7580-4de5-b4db-431b8fc44cd2.png)
 
