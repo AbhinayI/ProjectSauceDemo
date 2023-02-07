@@ -1,19 +1,27 @@
 
-# ProjectSauceDemo
+# Project SauceDemo
 
-This is a UI automation testing project of SauceLabsDemo web application.It is created using Page Object Model with Selenium Java with Data Driven Framework. TestNG is used as Test Framework, Dependency Java Maven, Log4j API dependency for Logs, Extent Reports dependency for generating reports.
 
-## Tools and Libraries used
-- Java 
-- Selenium
+## Overview
+This is an automated test framework for the Saucedemo web application of Data Driven Framework with Page Object Model, implemented using  Selenium WebDriver, TestNG, Maven, and Java. The framework includes automated test cases for various features of the web application and supports cross-browser and cross-platform testing.
+
+## Features
+- Developed test scripts and test suites using Selenium WebDriver, TestNG, Maven, and Java
+- Executed automated test scripts with log4j API for application logging
+- Perform cross-browser and cross-platform testing
+- Generated tests reports using ExtentReports
+- Created CI pipeline on Jenkins to run test scripts
+
+## Prerequisites
+- Java 8 or higher
+- Maven
+- Selenium WebDriver
 - TestNG
-- Maven,
 - Log4j API
 - ExtentReports
 
-
 ## Reports
-
+Reports are generated using ExtentReports and can be found in the `/reports` directory.
 ![Screenshot (2)](https://user-images.githubusercontent.com/122073049/211183340-4e0b00a8-9576-49df-9c0c-84f7670f7581.png)
 ![Screenshot (3)](https://user-images.githubusercontent.com/122073049/211183363-e8baa99f-7580-4de5-b4db-431b8fc44cd2.png)
 
