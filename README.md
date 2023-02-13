@@ -1,5 +1,5 @@
 
-# Project SauceDemo
+# SauceDemo
 
 
 ## Overview
