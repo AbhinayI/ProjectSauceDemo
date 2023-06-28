@@ -14,6 +14,7 @@ This is an automated test framework for the Saucedemo web application of **Data 
 
 ## Prerequisites
 - Java 8 or higher
+- https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white
 - Maven
 - Selenium WebDriver
 - TestNG
